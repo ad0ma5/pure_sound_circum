@@ -1,0 +1,7 @@
+#N canvas 612 347 450 300 12;
+#X obj 306 26 s beatoutbang1;
+#X obj 306 52 s beatoutbang2;
+#X obj 307 79 s beatoutbang3;
+#X obj 307 105 s beatoutbang4;
+#X obj 306 130 s beatoutbang5;
+#X obj 306 156 s beatoutbang6;
