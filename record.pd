@@ -1,11 +1,11 @@
-#N canvas 850 628 620 300 12;
+#N canvas 850 606 620 300 12;
 #X obj 155 169 writesf~ 1;
 #X msg 172 100 start;
 #X msg 191 132 stop;
 #X obj 112 14 r~ sentRecR;
 #X obj 19 13 r~ sentRecL;
 #X obj 35 95 adc~;
-#X msg 153 66 open ./song1_automacik.wav;
+#X msg 153 66 open ./song1_gabals001.wav;
 #X connect 1 0 0 0;
 #X connect 2 0 0 0;
 #X connect 3 0 0 0;
