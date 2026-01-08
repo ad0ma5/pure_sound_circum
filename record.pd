@@ -5,7 +5,7 @@
 #X obj 112 14 r~ sentRecR;
 #X obj 19 13 r~ sentRecL;
 #X obj 35 95 adc~;
-#X msg 153 66 open ./song1_gabals001.wav;
+#X msg 153 66 open ./gabals009.wav;
 #X connect 1 0 0 0;
 #X connect 2 0 0 0;
 #X connect 3 0 0 0;
