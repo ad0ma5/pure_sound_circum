@@ -1,4 +1,4 @@
-#N canvas 773 249 450 300 12;
+#N canvas 0 28 473 1014 12;
 #X obj 182 7 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 228 50 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 210 140 line;
@@ -21,6 +21,7 @@
 #X obj 57 166 *~ 0.3;
 #X obj 291 236 outlet;
 #X obj 92 28 osc~ 100;
+#X obj 351 5 inlet;
 #X connect 0 0 10 0;
 #X connect 0 0 9 0;
 #X connect 0 0 20 0;
@@ -44,3 +45,4 @@
 #X connect 18 0 19 0;
 #X connect 19 0 5 0;
 #X connect 21 0 17 0;
+#X connect 22 0 14 0;

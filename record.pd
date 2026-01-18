@@ -1,11 +1,11 @@
-#N canvas 0 28 473 1014 12;
+#N canvas 30 38 641 994 12;
 #X msg 277 87 start;
 #X msg 296 119 stop;
 #X obj 112 14 r~ sentRecR;
 #X obj 19 13 r~ sentRecL;
 #X obj 35 95 adc;
 #X obj 155 169 writesf~ 2;
-#X msg 258 53 open ./gabals_1.wav;
+#X msg 258 53 open -bytes 4 ./gabals_tests_budabudab.wav;
 #X connect 0 0 5 0;
 #X connect 1 0 5 0;
 #X connect 2 0 5 1;
