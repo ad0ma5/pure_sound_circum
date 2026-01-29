@@ -1,4 +1,4 @@
-#N canvas 0 28 473 1014 12;
+#N canvas 30 38 1011 994 12;
 #X obj 118 111 poly 4 1;
 #X listbox 197 62 13 0 0 0 - - - 0;
 #X obj 112 135 pack f f f;
@@ -7,7 +7,7 @@
 #X listbox 264 119 7 0 0 0 - - - 0;
 #X listbox 332 119 7 0 0 0 - - - 0;
 #X listbox 399 119 7 0 0 0 - - - 0;
-#X obj 115 44 notein;
+#X obj 123 58 notein;
 #X obj 115 88 pack f f;
 #X obj 87 187 unpack f f;
 #X obj 85 224 mtof;
@@ -83,6 +83,8 @@
 #X obj 835 50 inlet;
 #X obj 276 403 hip~ 30;
 #X obj 239 427 lop~ 1000;
+#X obj 32 19 r localnote;
+#X obj 125 21 unpack f f f;
 #X connect 0 0 2 0;
 #X connect 0 1 2 1;
 #X connect 0 2 2 2;
@@ -167,3 +169,6 @@
 #X connect 59 0 56 0;
 #X connect 60 0 61 0;
 #X connect 61 0 29 0;
+#X connect 62 0 63 0;
+#X connect 63 0 9 0;
+#X connect 63 1 9 1;

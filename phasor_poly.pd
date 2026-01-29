@@ -1,4 +1,4 @@
-#N canvas 0 38 1470 890 12;
+#N canvas 30 38 1011 994 12;
 #X obj 118 111 poly 4 1;
 #X listbox 197 62 13 0 0 0 - - - 0;
 #X obj 112 135 pack f f f;
@@ -38,6 +38,8 @@
 #X obj 515 326 outlet;
 #X obj 512 300 bang;
 #X obj 577 266 sel 0;
+#X obj 32 19 r localnote;
+#X obj 125 21 unpack f f f;
 #X connect 0 0 2 0;
 #X connect 0 1 2 1;
 #X connect 0 2 2 2;
@@ -92,3 +94,6 @@
 #X connect 35 0 34 0;
 #X connect 37 0 36 0;
 #X connect 38 1 37 0;
+#X connect 39 0 40 0;
+#X connect 40 0 9 0;
+#X connect 40 1 9 1;

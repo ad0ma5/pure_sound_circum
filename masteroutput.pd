@@ -34,7 +34,7 @@
 #X text 174 30 Level control abstraction \, part of 'extra' \, used in many of the Pd example and help patches., f 26;
 #X text 342 212 The "volume" and "mute" controls show up on the parent \, calling patch., f 23;
 #X obj 116 149 != 0;
-#N canvas 30 38 456 994 set-gain 0;
+#N canvas 30 38 641 994 set-gain 0;
 #X obj 123 315 line~;
 #X msg 42 118 \; pd dsp 1;
 #X msg 123 286 \$1 10;
