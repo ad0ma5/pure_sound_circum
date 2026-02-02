@@ -1,4 +1,4 @@
-#N canvas 387 254 740 433 12;
+#N canvas 0 28 954 1014 12;
 #X obj 41 68 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 118 373 midiout;
 #X obj 123 160 select 0 1;
@@ -23,7 +23,7 @@
 #X obj 335 188 s metromain;
 #X obj 345 137 * 24;
 #X obj 93 17 inlet;
-#X obj 539 140 nbx 3 17 30 300 0 1 empty empty BPM 0 -8 0 10 #fcfcfc #000000 #000000 20 256;
+#X obj 539 140 nbx 3 17 30 300 0 1 empty empty BPM 0 -8 0 10 #fcfcfc #000000 #000000 40 256;
 #X obj 539 184 /;
 #X msg 539 163 15000 \$1;
 #X floatatom 536 214 5 0 0 0 - - - 0;
@@ -35,6 +35,8 @@
 #X obj 330 253 midirealtimein;
 #X obj 332 288 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 557 303 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 400 22 loadbang;
+#X msg 400 47 1;
 #X connect 0 0 14 0;
 #X connect 2 0 3 0;
 #X connect 2 1 4 0;
@@ -74,3 +76,5 @@
 #X connect 31 0 35 0;
 #X connect 33 0 34 0;
 #X connect 35 0 30 0;
+#X connect 36 0 37 0;
+#X connect 37 0 8 0;
