@@ -1,4 +1,4 @@
-#N canvas 0 28 954 1014 12;
+#N canvas 0 28 1050 1014 12;
 #X obj 65 382 *~;
 #X obj 98 81 inlet~;
 #X obj 125 381 *~;
@@ -62,7 +62,7 @@
 #X restore 103 350 pd set-gain;
 #X obj 240 116 r \$0-number;
 #X obj 116 112 route mute level;
-#N canvas 30 38 456 994 (subpatch) 0;
+#N canvas 0 28 1050 1014 (subpatch) 0;
 #X obj 101 121 cnv 10 108 17 empty \$0-cnv empty 2 9 0 13 #f5f5f5 #000000 0;
 #X obj 103 100 hsl 105 21 0 1 0 0 \$0-hsl \$0-hsl-set volume 53 30 0 14 #dfdfdf #000000 #000000 0 1;
 #X floatatom 100 121 7 0 0 0 - \$0-number-set \$0-number 0;
@@ -135,7 +135,7 @@
 #X obj 161 149 tgl 19 0 \$0-send-mid-enable empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 184 149 tgl 19 0 \$0-send-low-enable empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 102 140 tgl 19 0 \$0-send-main-enable empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 105 239 hsl 100 19 0 2 0 0 \$0-send-gain empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 105 239 hsl 100 19 0 4 0 0 \$0-send-gain empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X coords 0 -1 1 1 110 159 2 100 100;
 #X restore 225 235 pd;
 #N canvas 401 219 244 203 (subpatch) 0;
