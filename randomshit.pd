@@ -1,4 +1,4 @@
-#N canvas 30 38 641 994 12;
+#N canvas 0 32 1050 1008 12;
 #X obj 28 182 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 74 166 pack \$1 \$2;
 #X msg 67 121 0 0;
@@ -9,7 +9,7 @@
 #X obj 13 120 spigot;
 #X obj 81 56 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 325 118 random 127;
-#X obj 291 36 delay 100;
+#X obj 314 16 delay 100;
 #X obj 330 94 delay 50;
 #X obj 156 86 delay 90;
 #X obj 303 69 delay 100;
@@ -44,9 +44,9 @@
 #X connect 8 0 7 1;
 #X connect 8 0 2 0;
 #X connect 9 0 4 0;
-#X connect 10 0 13 1;
 #X connect 10 0 9 0;
 #X connect 10 0 3 0;
+#X connect 10 0 13 0;
 #X connect 11 0 9 0;
 #X connect 12 0 3 0;
 #X connect 13 0 2 0;
