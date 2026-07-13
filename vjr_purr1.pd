@@ -31,7 +31,7 @@
 #X text 6 139 KICK;
 #N canvas 30 42 1011 988 (subpatch) 0;
 #X array \$0-drum1 32 float 3;
-#A 0 0.85 -0.400005 -0.350004 0.400001 -0.500004 -0.150002 -0.150002 -0.150002 -0.400003 -0.200002 0.850001 -0.300003 -0.350004 -0.550004 1 -0.400003 0.95 -0.400004 -0.350004 0.8 -0.400002 -0.500004 0.7 -0.700005 -0.100002 -0.800005 -0.850006 -0.900006 0.9 -1.20001 -1.15001 -1.15001;
+#A 0 0.8 -0.400005 -0.350004 -0.550005 -0.500004 -0.150002 -0.150002 -0.150002 -0.400003 -0.200002 -0.300003 -0.300003 -0.350004 -0.550004 -0.550004 -0.400003 0.75 -0.400004 -0.350004 -0.350004 -0.400002 -0.500004 -0.600005 -0.700005 -0.100002 -0.800005 -0.850006 -0.900006 -0.500003 -1.20001 -1.15001 -1.15001;
 #X coords 0 1 32 0 660 20 2 0 0;
 #X restore 1 172 graph;
 #X obj 45 146 tgl 19 0 empty empty empty 0 -10 0 12 #9c00ff #ffffff #ffffff 0 1;
@@ -218,7 +218,7 @@
 #X restore 579 173 graph;
 #N canvas 0 28 954 1014 (subpatch) 0;
 #X array \$0-drum2 32 float 3;
-#A 0 -0.44998 -0.44998 -0.44998 -0.349982 0.8 -0.349982 -0.349982 -0.699976 -0.549982 -0.699976 -0.74998 -0.349989 0.45 -0.749982 -0.799986 -0.949984 -0.499992 -0.949984 -0.749982 -0.949984 0.749997 -0.799983 -0.799983 -0.0999947 0.699997 -0.599986 0.8 -0.599986 -0.299992 -0.599986 0.65 -0.599986;
+#A 0 -0.44998 -0.44998 -0.44998 -0.349982 -0.499986 -0.349982 -0.349982 -0.699976 -0.549982 -0.699976 -0.599978 -0.349989 0.449998 -0.749982 -0.799986 -0.949984 -0.499992 -0.949984 -0.949984 -0.949984 -0.849982 -0.799983 -0.799983 -0.0999947 -0.199989 -0.599986 -0.29999 -0.599986 0.6 -0.599986 -0.599986 -0.599986;
 #X coords 0 1 32 0 660 20 2 0 0;
 #X restore 5 273 graph;
 #X obj 47 252 tgl 19 0 empty empty empty 0 -10 0 12 #0400ff #ffffff #ffffff 0 1;
@@ -355,7 +355,7 @@
 #X text 8 355 Cik;
 #N canvas 817 168 450 278 (subpatch) 0;
 #X array \$0-drum4 32 float 3;
-#A 0 0.5 -0.650036 -0.650036 -0.650036 0.8 -0.600034 -0.600034 -0.600034 0.75 -0.500032 -0.700031 -0.750032 0.650003 0.875009 1.10001 1.17502 1.25002 1.32502 1.40002 1.40002 1.40002 1.40002 1.40002 1.40002 0.55 -1.20004 -1.20004 -1.20004 0.75 -1.20004 -0.450017 -0.700031;
+#A 0 0.5 -0.650036 -0.650036 -0.650036 0.8 -0.600034 -0.600034 -0.600034 0.75 -0.500032 -0.700031 -0.750032 0.8 -0.65003 0.75 -0.600029 0.8 -0.750032 -0.750032 -0.900036 0.700003 -1.15004 -1.20004 -1.20004 0.55 -1.20004 -1.20004 -1.20004 0.75 -1.20004 0.7 -0.700031;
 #X coords 0 1 32 0 660 20 2 0 0;
 #X restore 9 482 graph;
 #X obj 53 455 tgl 19 0 empty empty empty 0 -10 0 12 #00ff04 #000000 #000000 0 1;
@@ -1419,7 +1419,7 @@
 #X obj 120 112 line~;
 #X obj 115 83 pack f 50;
 #X floatatom 110 54 8 0 0 0 - - - 0;
-#X obj 80 25 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 4200 1;
+#X obj 80 25 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 3811 1;
 #X obj 42 143 r \$0-set;
 #X obj 223 27 hsl 100 19 0 4 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 6800 1;
 #X floatatom 224 52 5 0 8 0 - - - 0;
@@ -1468,7 +1468,7 @@
 #X connect 16 0 13 0;
 #X connect 18 0 0 0;
 #X restore 942 66 pd boby;
-#X obj 945 26 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 4277 1;
+#X obj 945 26 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 3811 1;
 #X obj 945 46 hsl 100 19 0 4 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 1700 1;
 #X text 950 26 cutoff freq, f 13;
 #X text 941 45 "resonance" (0-4;
@@ -1509,7 +1509,7 @@
 #X obj 943 97 hsl 100 10 0 5 0 0 empty empty empty -2 -10 0 12 #c6feff #000000 #000000 0 1;
 #X obj 1070 47 r mobiler1;
 #X obj 1048 67 clip 100 5000;
-#X obj 1148 26 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 5134 1;
+#X obj 1148 26 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 4838 1;
 #X obj 1148 46 hsl 100 19 0 4 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 3600 1;
 #X text 1153 26 cutoff freq, f 13;
 #X text 1147 45 "resonance" (0-4;
@@ -1555,7 +1555,7 @@
 #X obj 120 112 line~;
 #X obj 115 83 pack f 50;
 #X floatatom 110 54 8 0 0 0 - - - 0;
-#X obj 80 25 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 5100 1;
+#X obj 80 25 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 4838 1;
 #X obj 42 143 r \$0-set;
 #X obj 223 27 hsl 100 19 0 4 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 6800 1;
 #X floatatom 224 52 5 0 8 0 - - - 0;
@@ -1652,7 +1652,7 @@
 #X obj 291 195 throw~ \$0-bobycatch;
 #X obj 150 195 throw~ \$0-toringerin;
 #X obj 162 195 throw~ \$0-todelay3;
-#X obj 8 299 efects_control;
+#X obj 13 275 efects_control;
 #X obj 21 322 throw~ \$0-todelay1;
 #X obj 18 324 throw~ \$0-todelay2;
 #X obj 248 325 throw~ \$0-reverbcatch;
@@ -1660,7 +1660,7 @@
 #X obj 288 324 throw~ \$0-bobycatch;
 #X obj 143 325 throw~ \$0-toringerin;
 #X obj 155 324 throw~ \$0-todelay3;
-#X obj 13 404 efects_control;
+#X obj 20 381 efects_control;
 #X obj 20 424 throw~ \$0-todelay1;
 #X obj 17 426 throw~ \$0-todelay2;
 #X obj 247 427 throw~ \$0-reverbcatch;
@@ -1668,7 +1668,7 @@
 #X obj 272 429 throw~ \$0-bobycatch;
 #X obj 142 427 throw~ \$0-toringerin;
 #X obj 154 426 throw~ \$0-todelay3;
-#X obj 4 506 efects_control;
+#X obj 8 483 efects_control;
 #X obj 18 527 throw~ \$0-todelay1;
 #X obj 15 529 throw~ \$0-todelay2;
 #X obj 245 530 throw~ \$0-reverbcatch;
@@ -1676,7 +1676,7 @@
 #X obj 294 529 throw~ \$0-bobycatch;
 #X obj 140 530 throw~ \$0-toringerin;
 #X obj 152 529 throw~ \$0-todelay3;
-#X obj 8 613 efects_control;
+#X obj 21 591 efects_control;
 #X obj 21 635 throw~ \$0-todelay1;
 #X obj 18 637 throw~ \$0-todelay2;
 #X obj 248 638 throw~ \$0-reverbcatch;
@@ -2056,7 +2056,7 @@
 #X floatatom 118 1244 2 0 0 0 - - - 0;
 #X floatatom 138 1244 2 0 0 0 - - - 0;
 #X obj 189 1222 hsl 100 19 0 4 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 299 1003 efects_control;
+#X obj 299 988 efects_control;
 #X obj 309 1025 throw~ \$0-todelay1;
 #X obj 306 1027 throw~ \$0-todelay2;
 #X obj 536 1028 throw~ \$0-reverbcatch;
@@ -2064,8 +2064,8 @@
 #X obj 585 1027 throw~ \$0-bobycatch;
 #X obj 431 1028 throw~ \$0-toringerin;
 #X obj 443 1027 throw~ \$0-todelay3;
-#X obj 403 1003 r~ \$0-autorstartsend;
-#X obj 299 1057 efects_control;
+#X obj 300 1028 r~ \$0-autorstartsend;
+#X obj 299 1034 efects_control;
 #X obj 312 1078 throw~ \$0-todelay1;
 #X obj 309 1080 throw~ \$0-todelay2;
 #X obj 539 1081 throw~ \$0-reverbcatch;
@@ -2073,8 +2073,8 @@
 #X obj 588 1080 throw~ \$0-bobycatch;
 #X obj 434 1081 throw~ \$0-toringerin;
 #X obj 446 1080 throw~ \$0-todelay3;
-#X obj 406 1056 r~ \$0-autorstartsend1;
-#X obj 298 1109 efects_control;
+#X obj 321 1078 r~ \$0-autorstartsend1;
+#X obj 297 1087 efects_control;
 #X obj 312 1131 throw~ \$0-todelay1;
 #X obj 309 1133 throw~ \$0-todelay2;
 #X obj 539 1134 throw~ \$0-reverbcatch;
@@ -2082,7 +2082,7 @@
 #X obj 588 1133 throw~ \$0-bobycatch;
 #X obj 434 1134 throw~ \$0-toringerin;
 #X obj 446 1133 throw~ \$0-todelay3;
-#X obj 299 1160 efects_control;
+#X obj 297 1133 efects_control;
 #X obj 312 1184 throw~ \$0-todelay1;
 #X obj 309 1186 throw~ \$0-todelay2;
 #X obj 539 1187 throw~ \$0-reverbcatch;
@@ -2090,7 +2090,7 @@
 #X obj 588 1186 throw~ \$0-bobycatch;
 #X obj 434 1187 throw~ \$0-toringerin;
 #X obj 446 1186 throw~ \$0-todelay3;
-#X obj 300 1211 efects_control;
+#X obj 297 1191 efects_control;
 #X obj 312 1238 throw~ \$0-todelay1;
 #X obj 309 1240 throw~ \$0-todelay2;
 #X obj 539 1241 throw~ \$0-reverbcatch;
@@ -2098,9 +2098,9 @@
 #X obj 588 1240 throw~ \$0-bobycatch;
 #X obj 434 1241 throw~ \$0-toringerin;
 #X obj 446 1240 throw~ \$0-todelay3;
-#X obj 406 1109 r~ \$0-autorstartsend2;
-#X obj 406 1162 r~ \$0-autorstartsend3;
-#X obj 406 1216 r~ \$0-autorstartsend4;
+#X obj 332 1131 r~ \$0-autorstartsend2;
+#X obj 377 1187 r~ \$0-autorstartsend3;
+#X obj 369 1241 r~ \$0-autorstartsend4;
 #X obj 37 1428 phasor_poly;
 #X obj 11 1418 tgl 25 0 empty empty empty 0 -10 0 12 #c6ffc7 #000000 #000000 0 1;
 #X obj 148 1423 bng 19 250 50 0 empty empty empty 0 -10 0 12 #ffc7c6 #000000 #000000;
@@ -2396,7 +2396,7 @@
 #X restore 646 1780 pd panning;
 #X obj 740 1961 s~ \$0-adc_send;
 #X obj 1164 1215 bng 20 250 50 0 empty firstbeat empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 340 1270 efects_control;
+#X obj 334 1251 efects_control;
 #X obj 386 1293 throw~ \$0-todelay1;
 #X obj 383 1295 throw~ \$0-todelay2;
 #X obj 613 1296 throw~ \$0-reverbcatch;
@@ -2404,7 +2404,7 @@
 #X obj 662 1295 throw~ \$0-bobycatch;
 #X obj 508 1296 throw~ \$0-toringerin;
 #X obj 520 1295 throw~ \$0-todelay3;
-#X obj 340 1322 efects_control;
+#X obj 340 1295 efects_control;
 #X obj 386 1346 throw~ \$0-todelay1;
 #X obj 383 1348 throw~ \$0-todelay2;
 #X obj 613 1349 throw~ \$0-reverbcatch;
@@ -2412,8 +2412,8 @@
 #X obj 662 1348 throw~ \$0-bobycatch;
 #X obj 508 1349 throw~ \$0-toringerin;
 #X obj 520 1348 throw~ \$0-todelay3;
-#X obj 448 1324 r~ \$0-randomshit;
-#X obj 340 1369 efects_control;
+#X obj 360 1348 r~ \$0-randomshit;
+#X obj 340 1349 efects_control;
 #X obj 386 1393 throw~ \$0-todelay1;
 #X obj 383 1395 throw~ \$0-todelay2;
 #X obj 613 1396 throw~ \$0-reverbcatch;
@@ -2421,7 +2421,7 @@
 #X obj 662 1395 throw~ \$0-bobycatch;
 #X obj 508 1396 throw~ \$0-toringerin;
 #X obj 520 1395 throw~ \$0-todelay3;
-#X obj 340 1422 efects_control;
+#X obj 340 1404 efects_control;
 #X obj 386 1446 throw~ \$0-todelay1;
 #X obj 383 1448 throw~ \$0-todelay2;
 #X obj 613 1449 throw~ \$0-reverbcatch;
@@ -2429,9 +2429,9 @@
 #X obj 662 1448 throw~ \$0-bobycatch;
 #X obj 508 1449 throw~ \$0-toringerin;
 #X obj 520 1448 throw~ \$0-todelay3;
-#X obj 451 1374 r~ \$0-celosend;
-#X obj 448 1424 r~ \$0-phasor_polysend;
-#X obj 340 1474 efects_control;
+#X obj 409 1393 r~ \$0-celosend;
+#X obj 421 1446 r~ \$0-phasor_polysend;
+#X obj 340 1460 efects_control;
 #X obj 386 1498 throw~ \$0-todelay1;
 #X obj 383 1500 throw~ \$0-todelay2;
 #X obj 613 1501 throw~ \$0-reverbcatch;
@@ -2439,7 +2439,7 @@
 #X obj 662 1500 throw~ \$0-bobycatch;
 #X obj 508 1501 throw~ \$0-toringerin;
 #X obj 520 1500 throw~ \$0-todelay3;
-#X obj 340 1527 efects_control;
+#X obj 340 1517 efects_control;
 #X obj 386 1551 throw~ \$0-todelay1;
 #X obj 383 1553 throw~ \$0-todelay2;
 #X obj 613 1554 throw~ \$0-reverbcatch;
@@ -2447,8 +2447,8 @@
 #X obj 662 1553 throw~ \$0-bobycatch;
 #X obj 508 1554 throw~ \$0-toringerin;
 #X obj 520 1553 throw~ \$0-todelay3;
-#X obj 448 1529 r~ \$0-vibro_polysend;
-#X obj 451 1479 r~ \$0-osc_polysend;
+#X obj 447 1554 r~ \$0-vibro_polysend;
+#X obj 448 1501 r~ \$0-osc_polysend;
 #X obj 170 1703 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 181 1676 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 198 1703 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
@@ -3070,7 +3070,7 @@
 #X obj 1833 966 spigot;
 #X obj 1882 968 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X text 1809 990 4.8e+06;
-#X obj 1924 969 efects_control;
+#X obj 1932 951 efects_control;
 #X obj 1967 993 throw~ \$0-todelay1;
 #X obj 1964 995 throw~ \$0-todelay2;
 #X obj 2194 996 throw~ \$0-reverbcatch;
@@ -3198,7 +3198,7 @@
 #X restore 586 693 graph;
 #X obj 352 670 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 671 696 bng 20 250 50 0 \$0-charsendbang empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 10 719 efects_control;
+#X obj 10 700 efects_control;
 #X obj 23 742 throw~ \$0-todelay1;
 #X obj 20 744 throw~ \$0-todelay2;
 #X obj 250 745 throw~ \$0-reverbcatch;
@@ -3466,8 +3466,8 @@
 #X floatatom 2111 1135 2 0 0 0 - - - 0;
 #X obj 1932 1084 sampe_manager drum1;
 #X obj 164 1862 visualout;
-#X obj 1351 25 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 3039 1;
-#X obj 1351 45 hsl 100 19 0 4 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 4718 1;
+#X obj 1351 25 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 6178 1;
+#X obj 1351 45 hsl 100 19 0 4 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 5691 1;
 #X text 1356 27 cutoff freq, f 13;
 #X text 1347 44 "resonance" (0-4;
 #N canvas 30 42 1011 988 randomline 0;
@@ -3624,7 +3624,7 @@
 #X obj 120 112 line~;
 #X obj 115 83 pack f 50;
 #X floatatom 110 54 8 0 0 0 - - - 0;
-#X obj 80 25 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 3000 1;
+#X obj 80 25 hsl 100 19 60 5000 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 6178 1;
 #X obj 42 143 r \$0-set;
 #X obj 223 27 hsl 100 19 0 4 0 1 empty empty empty -2 -8 0 10 #dfdfdf #000000 #000000 6800 1;
 #X floatatom 224 52 5 0 8 0 - - - 0;
@@ -3689,7 +3689,7 @@
 #X obj 2007 645 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 2036 646 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 2066 645 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 1939 750 efects_control;
+#X obj 1944 736 efects_control;
 #X obj 1954 775 throw~ \$0-todelay1;
 #X obj 1951 777 throw~ \$0-todelay2;
 #X obj 2181 778 throw~ \$0-reverbcatch;
@@ -3715,7 +3715,7 @@
 #X obj 9 1189 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 32 1246 spigot;
 #X obj 9 1244 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 993 481 efects_control;
+#X obj 993 469 efects_control;
 #X obj 1013 504 throw~ \$0-todelay1;
 #X obj 1010 506 throw~ \$0-todelay2;
 #X obj 1240 507 throw~ \$0-reverbcatch;
@@ -3860,7 +3860,7 @@
 #X obj 1236 302 hsl 60 19 0 2 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 1202 276 r~ external_piano;
 #X obj 1122 674 s~ external_piano;
-#X obj 1826 1340 efects_control;
+#X obj 1825 1364 efects_control;
 #X obj 1869 1364 throw~ \$0-todelay1;
 #X obj 1866 1366 throw~ \$0-todelay2;
 #X obj 2096 1367 throw~ \$0-reverbcatch;
@@ -3979,7 +3979,7 @@
 #X obj 1339 220 throw~ \$0-masteroutL;
 #N canvas 0 32 1050 1008 (subpatch) 0;
 #X array \$0-perc 32 float 3;
-#A 0 -0.800092 -0.800092 0.65 -0.950101 0.75 -0.350052 -0.400055 -0.400055 -0.400055 -0.400055 -0.400055 -0.400055 0.75 -0.450058 -0.450058 -0.450058 -0.450058 -0.600067 0.649998 -0.65007 0.65 -0.600067 -0.449987 -0.20004 -0.200049 -0.750067 -0.600058 -0.550055 0.8 -0.550055 -0.600055 -1.15011;
+#A 0 -0.800092 -0.800092 -0.850095 -0.950101 0.75 -0.350052 -0.400055 -0.400055 -0.400055 -0.400055 -0.400055 -0.400055 0.75 -0.450058 -0.450058 -0.450058 -0.450058 -0.600067 -0.65007 -0.65007 0.65 -0.600067 0.6 -0.20004 -0.200049 -0.750067 -0.600058 -0.550055 0.8 -0.550055 -0.600055 -1.15011;
 #X coords 0 1 32 0 660 20 2 0 0;
 #X restore 7 797 graph;
 #X obj 54 775 tgl 19 0 empty empty empty 0 -10 0 12 #0400ff #ffffff #ffffff 0 1;
@@ -3998,7 +3998,7 @@
 #X restore 586 797 graph;
 #X obj 352 774 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 671 800 bng 20 250 50 0 \$0-charsendbang empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 10 823 efects_control;
+#X obj 16 810 efects_control;
 #X obj 23 846 throw~ \$0-todelay1;
 #X obj 20 848 throw~ \$0-todelay2;
 #X obj 250 849 throw~ \$0-reverbcatch;
@@ -4123,10 +4123,10 @@
 #X connect 51 0 43 0;
 #X restore 73 771 pd readdrum7;
 #X obj 387 892 r kiks8;
-#X obj 2046 751 s~ \$0-drumsend;
+#X obj 2062 786 s~ \$0-drumsend;
 #X text 109 84 1;
 #X text 169 84 4;
-#X obj 621 1834 efects_control;
+#X obj 615 1873 efects_control;
 #X obj 640 1857 throw~ \$0-todelay1;
 #X obj 637 1859 throw~ \$0-todelay2;
 #X obj 867 1860 throw~ \$0-reverbcatch;
@@ -4144,7 +4144,7 @@
 #X obj 1170 1745 hsl 100 19 0 2 0 0 empty empty empty -2 -10 0 12 #00ff04 #000000 #000000 0 1;
 #X obj 945 1703 adc~ 2;
 #X obj 997 1748 s~ \$0-adc_send2;
-#X obj 864 1773 efects_control;
+#X obj 856 1798 efects_control;
 #X obj 883 1796 throw~ \$0-todelay1;
 #X obj 880 1798 throw~ \$0-todelay2;
 #X obj 1110 1799 throw~ \$0-reverbcatch;
@@ -4160,7 +4160,7 @@
 #X floatatom 1196 166 5 0 0 0 - - - 0;
 #X obj 1239 167 expr 1 - $f1;
 #X floatatom 1333 166 5 0 0 0 - - - 0;
-#X obj 954 900 efects_control;
+#X obj 948 885 efects_control;
 #X obj 965 925 throw~ \$0-todelay1;
 #X obj 962 927 throw~ \$0-todelay2;
 #X obj 1192 928 throw~ \$0-reverbcatch;
@@ -4245,7 +4245,7 @@
 #X obj 2842 783 spigot;
 #X floatatom 2868 689 5 0 0 0 - - - 0;
 #X obj 2814 665 random 20;
-#X obj 2508 811 efects_control;
+#X obj 2510 795 efects_control;
 #X obj 2528 834 throw~ \$0-todelay1;
 #X obj 2525 836 throw~ \$0-todelay2;
 #X obj 2755 837 throw~ \$0-reverbcatch;
@@ -4342,7 +4342,7 @@
 #X msg 1179 456 0;
 #X msg 1255 457 0;
 #X obj 1255 430 bng 20 250 50 0 empty empty empty 0 -10 0 12 #ff0400 #000000 #000000;
-#X obj 989 616 efects_control;
+#X obj 987 597 efects_control;
 #X obj 1000 641 throw~ \$0-todelay1;
 #X obj 997 643 throw~ \$0-todelay2;
 #X obj 1227 644 throw~ \$0-reverbcatch;
@@ -4360,7 +4360,7 @@
 #X symbolatom 2828 463 23 0 0 0 - - - 0;
 #X obj 2651 463 symbol \$0-sample-current;
 #X obj 2627 463 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 1048 3 r metromain;
+#X obj 942 4 r metromain;
 #X obj 707 470 bng 20 250 50 0 empty empty empty 0 -10 0 12 #9c00ff #ffffff #ffffff;
 #N canvas 0 32 1050 1008 sampler_auto 0;
 #X obj 334 231 autostart_sampler_example;
@@ -5394,7 +5394,7 @@
 #X obj 209 1585 throw~ \$0-pianoin;
 #X obj 28 1608 s~ \$0-pew_polysend;
 #X obj 42 1588 pew_poly;
-#X obj 340 1587 efects_control;
+#X obj 340 1570 efects_control;
 #X obj 386 1611 throw~ \$0-todelay1;
 #X obj 383 1613 throw~ \$0-todelay2;
 #X obj 613 1614 throw~ \$0-reverbcatch;
@@ -5402,11 +5402,11 @@
 #X obj 662 1613 throw~ \$0-bobycatch;
 #X obj 508 1614 throw~ \$0-toringerin;
 #X obj 520 1613 throw~ \$0-todelay3;
-#X obj 447 1589 r~ \$0-pew_polysend;
+#X obj 447 1614 r~ \$0-pew_polysend;
 #X obj 143 1813 makenote 100 2000;
 #X obj 2510 1643 r humanpet;
 #X obj 2001 1773 s~ humanpetsound;
-#X obj 2046 1723 efects_control;
+#X obj 2042 1729 efects_control;
 #X obj 2065 1735 throw~ \$0-todelay1;
 #X obj 2062 1737 throw~ \$0-todelay2;
 #X obj 2292 1738 throw~ \$0-reverbcatch;
@@ -5658,7 +5658,7 @@
 #X obj 2725 954 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 2660 1059 spigot;
 #X obj 2715 1060 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 2425 1294 efects_control;
+#X obj 2423 1308 efects_control;
 #X obj 2444 1306 throw~ \$0-todelay1;
 #X obj 2441 1308 throw~ \$0-todelay2;
 #X obj 2671 1309 throw~ \$0-reverbcatch;
@@ -5916,7 +5916,7 @@
 #X connect 36 0 30 0;
 #X coords 0 -1 1 1 385 60 1 100 100;
 #X restore 2213 390 pd LFO;
-#X obj 2111 463 efects_control;
+#X obj 2108 473 efects_control;
 #X obj 2131 486 throw~ \$0-todelay1;
 #X obj 2128 488 throw~ \$0-todelay2;
 #X obj 2358 489 throw~ \$0-reverbcatch;
@@ -5970,7 +5970,7 @@
 #X text 3380 1349 reset;
 #X obj 3250 1352 r \$0-reset_counter;
 #X obj 1456 565 r~ \$0-autorstartsend_b1;
-#X obj 2035 970 r~ \$0-autorstartsend_b1_alone;
+#X obj 2017 996 r~ \$0-autorstartsend_b1_alone;
 #N canvas 30 38 1011 994 panning 0;
 #X obj 28 36 inlet~;
 #X obj 89 311 outlet~;
@@ -6461,8 +6461,8 @@
 #X connect 442 17 582 0;
 #X connect 452 0 458 0;
 #X connect 453 0 456 0;
-#X connect 453 0 1105 0;
 #X connect 453 0 1286 0;
+#X connect 453 0 1105 0;
 #X connect 454 0 585 1;
 #X connect 457 0 442 0;
 #X connect 458 0 459 0;
@@ -6637,8 +6637,8 @@
 #X connect 634 0 631 0;
 #X connect 635 0 637 0;
 #X connect 635 0 908 0;
-#X connect 635 0 1224 0;
 #X connect 635 0 1526 0;
+#X connect 635 0 1224 0;
 #X connect 636 0 635 1;
 #X connect 638 0 639 0;
 #X connect 639 0 640 0;
@@ -7120,9 +7120,9 @@
 #X connect 1105 5 1109 0;
 #X connect 1105 6 1108 0;
 #X connect 1113 0 1122 0;
-#X connect 1113 0 1123 0;
 #X connect 1113 0 455 0;
 #X connect 1113 0 456 0;
+#X connect 1113 0 1123 0;
 #X connect 1114 0 1115 1;
 #X connect 1115 0 1118 0;
 #X connect 1116 0 1117 0;
@@ -7256,6 +7256,7 @@
 #X connect 1242 0 806 0;
 #X connect 1242 0 235 0;
 #X connect 1242 0 224 0;
+#X connect 1242 0 201 0;
 #X connect 1243 0 1244 0;
 #X connect 1244 0 1245 0;
 #X connect 1244 0 1248 0;
@@ -7397,9 +7398,9 @@
 #X connect 1397 0 707 1;
 #X connect 1397 0 1356 1;
 #X connect 1399 0 1397 0;
-#X connect 1400 0 1105 0;
 #X connect 1400 0 455 0;
 #X connect 1400 0 456 0;
+#X connect 1400 0 1105 0;
 #X connect 1401 0 1400 1;
 #X connect 1402 0 1403 0;
 #X connect 1403 0 1409 0;
@@ -7410,8 +7411,8 @@
 #X connect 1408 2 1404 0;
 #X connect 1408 8 1290 0;
 #X connect 1409 0 1406 0;
-#X connect 1410 0 1338 0;
 #X connect 1410 0 1347 0;
+#X connect 1410 0 1338 0;
 #X connect 1411 0 1410 1;
 #X connect 1412 0 1414 0;
 #X connect 1413 0 1412 1;
@@ -7481,8 +7482,8 @@
 #X connect 1474 0 1467 0;
 #X connect 1475 0 1477 0;
 #X connect 1476 0 1475 1;
-#X connect 1477 0 1443 0;
 #X connect 1477 0 1434 0;
+#X connect 1477 0 1443 0;
 #X connect 1478 0 1475 0;
 #X connect 1479 0 1478 1;
 #X connect 1480 0 933 0;
@@ -7528,8 +7529,8 @@
 #X connect 1512 4 1517 0;
 #X connect 1512 5 1516 0;
 #X connect 1512 6 1515 0;
-#X connect 1520 0 1512 0;
 #X connect 1520 0 1522 0;
+#X connect 1520 0 1512 0;
 #X connect 1521 0 1520 1;
 #X connect 1523 0 934 0;
 #X connect 1524 0 1523 1;
