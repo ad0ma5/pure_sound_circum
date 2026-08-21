@@ -7,7 +7,7 @@
 #X obj 225 45 inlet;
 #X obj 229 258 outlet~;
 #X obj 227 156 *~ 60;
-#X obj 227 228 *~ 6;
+#X obj 227 228 *~ 2;
 #X connect 0 0 1 0;
 #X connect 1 0 7 0;
 #X connect 2 0 8 0;
