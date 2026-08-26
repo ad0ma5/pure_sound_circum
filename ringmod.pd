@@ -16,7 +16,7 @@
 #X msg 120 82 \$1 1000;
 #X obj 175 280 outlet;
 #X obj 223 139 osc~;
-#X obj 105 257 *~;
+#X obj 96 236 *~;
 #X obj 96 179 osc~ 100;
 #X obj 74 81 + 32;
 #X obj 96 58 random 164;
