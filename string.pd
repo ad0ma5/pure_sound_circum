@@ -20,7 +20,7 @@
 #X obj 216 456 line~;
 #X obj 495 219 vsl 15 128 0 127 0 0 empty empty Highpass 0 -9 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 369 319 mtof;
-#X obj 351 340 hip~;
+#X obj 343 366 hip~;
 #X obj 171 406 noise~;
 #N canvas 148 167 450 300 note>0 0;
 #X obj 140 150 != 0;
